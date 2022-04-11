@@ -141,6 +141,10 @@ public class Java8Practice {
                 .collect(Collectors.toList());
         distinctElementList.forEach(System.out::println);
 
+        /**
+         * https://docs.oracle.com/javase/8/docs/api/java/util/stream/Collectors.html
+         */
+
     }
 
     private static Map<Integer, Long> frequencyMap(Stream<Integer> stream) {
